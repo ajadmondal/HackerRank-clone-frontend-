@@ -1,0 +1,120 @@
+body{
+  background-color:rgba(230, 238, 245,0.6);
+}
+#nav li{
+  list-style-type:none;
+  float:left;
+  box-sizing:border-box;
+}
+#nav a{
+  text-decoration:none;
+  text-align:center;
+  padding-left:13px;
+  padding-right:13px;
+  padding-bottom:26px;
+  margin-top:15px;
+  color:rgb(143, 139, 176);
+  box-sizing:border-box;
+  verticle-align:bottom;
+}
+#nav a:hover{
+  color:#fff;
+  border-bottom:5px solid rgb(62, 171, 63);
+ // cursor:pointer;
+}
+#dashboard{
+  margin-top:75px;
+  background-color:#fff;
+  height:150px;
+  width:100%;
+   padding:15px;
+}
+#skill{
+  width:100%;
+  position:realtive;
+  left:0px;
+  right:0px;
+  margin:0px;
+  padding:15px;
+}
+.box{
+  background-color:#fff;
+  min-width:400px;
+  max-width:33.33%;
+  float:left;
+  height:200px;
+  font-size:25px;
+  padding:15px 30px;
+  box-shadow:3px 3px 18px rgb(193, 203, 212);
+  margin:25px;
+}
+.box:hover{
+  box-shadow:8px 8px 28px rgb(160, 174, 186);
+}
+button{
+  background-color:#fff;
+  border:1px solid rgb(62, 171, 63);
+  cursor:pointer;
+  height:40px;
+  width:130px;
+  color:rgb(62, 171, 63);
+  border-radius:3px;
+}
+button:hover{
+  background-color:rgb(62, 171, 63);
+  color:#FFF;
+ // border:1px solid #000;
+}
+#sp{
+  color:#fff;
+  background-color:rgb(0, 21, 38);
+  box-shadow:3px 3px 18px rgb(193, 203, 212);
+}
+#sp button{
+  color:rgba(0, 21, 38,0.9);
+}
+#ipk{
+  width:200px;
+  height:65px;
+  font-size:20px;
+  background-color:rgb(62, 171, 63);
+  color:#FFF;
+ // border:1px solid #000;
+}
+table{
+  margin:20px;
+  background-color:#fff;
+ // border:1px solid rgb(206, 213, 219);
+  box-shadow:3px 3px 18px rgb(193, 203, 212);
+  width:100%;
+  max-width:1600px;
+   border-collapse: collapse;
+}
+td{
+  width:33.33%;
+  height:35px;
+  padding:20px;
+  text-align:center;
+  border:1px solid rgba(206, 213, 219,0.6);
+   border-collapse: collapse;
+}
+td:hover{
+  box-shadow:8px 8px 28px rgb(160, 174, 186);
+  cursor:pointer;
+}
+.st{
+  color:rgb(62, 171, 63);        cursor:pointer;
+  font-size:15px;
+}
+.st:hover{
+  border-bottom:1px solid rgb(62, 171, 63);
+}
+footer{
+  background-color:rgb(144, 156, 166);
+  width:100%;
+  height:40px;
+  color:#fff;
+  font-size:20px;
+  padding:15px;
+  display:flex;
+}
